@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaczan's Marketing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">Kaczan's Marketing</h1>
+    <nav class="menu">
+      <a href="#produtos" class="scroll-link">Produtos</a>
+      <a href="#contato" class="scroll-link">Contato</a>
+    </nav>
+    <button id="btn-produtos">Ver Produtos</button>
+  </header>
+
+  <section class="hero" id="hero">
+    <h2>Bem-vindo à nossa loja!</h2>
+    <button id="btn-hero">Ver Produtos</button>
+  </section>
+
+  <section id="produtos" class="produtos-section">
+    <!-- Produtos serão adicionados via JavaScript -->
+  </section>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="fechar-modal">&times;</span>
+      <div id="modal-imagens"></div>
+    </div>
+  </div>
+
+  <footer id="contato">
+    <button id="btn-whatsapp">Fale no WhatsApp</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
